@@ -1,0 +1,72 @@
+{
+    "tutors":[
+        {
+            "id": 1,
+            "first_name":"John",
+            "last_name":"Doe",
+            "email":"john.doe@gmail.com"
+        },
+        {
+            "id": 2,
+            "first_name":"Mark",
+            "last_name":"Sent",
+            "email":"mark.sent@gmail.com"
+        },
+        {
+            "id": 3,
+            "first_name":"Alex",
+            "last_name":"Hola",
+            "email":"alex.hola@gmail.com"
+        }
+
+    ],
+    "students":[
+        {
+            "id": 1,
+            "first_name":"Ami",
+            "last_name":"Patel",
+            "email":"ami.patel@gmail.com"
+        },
+        {
+            "id": 2,
+            "first_name":"Rahul",
+            "last_name":"Ved",
+            "email":"rahul.ved@gmail.com"
+        },
+        {
+            "id": 3,
+            "first_name":"Sanket",
+            "last_name":"Shah",
+            "email":"sanket.shah@gmail.com"
+        }
+    ],
+    "classes":[
+        {
+            "id":1,
+            "tutor_id":1,
+            "student_id":1,
+            "start_time":"2022-07-17T14:00:00.000Z",
+            "end_time":"2022-07-17T15:00:00.000Z",
+            "class_fee_per_hour":100,
+            "discount_rate":10
+        },
+        {
+            "id":2,
+            "tutor_id":1,
+            "student_id":2,
+            "start_time":"2022-07-17T16:00:00.000Z",
+            "end_time":"2022-07-17T17:00:00.000Z",
+            "class_fee_per_hour":200,
+            "discount_rate":10
+        },
+        {
+            "id":3,
+            "tutor_id":2,
+            "student_id":3,
+            "start_time":"2022-07-18T14:00:00.000Z",
+            "end_time":"2022-07-18T15:00:00.000Z",
+            "class_fee_per_hour":100,
+            "discount_rate":10
+        }
+    ]
+}
