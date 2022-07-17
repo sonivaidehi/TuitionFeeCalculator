@@ -1,7 +1,7 @@
 # Generate invoice 
 
 ## Steps to run the project
-1. ```npm i  // install node dependency
+1. ```npm i```  // install node dependency
 2. node ./generateInvoice.js // run js file
 
 ## Description
